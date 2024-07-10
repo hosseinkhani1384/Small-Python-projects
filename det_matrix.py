@@ -1,0 +1,5 @@
+l1 = list(map(float,input("radif aval: ").split()))
+l2 = list(map(float,input("radif dovom: ").split()))
+l3 = list(map(float,input("radif sevom: ").split()))
+j = (l1[0]*l2[1]*l3[2])+(l1[1]*l2[2]*l3[0])+(l1[2]*l2[0]*l3[1])-((l1[1]*l2[0]*l3[2])+(l1[0]*l2[2]*l3[1])+(l1[2]*l2[1]*l3[0]))
+print(j)
