@@ -14,3 +14,5 @@ def t(x):
             w += (b[index].lower())
     return w
 print(t(input("Enter: ")))
+
+
